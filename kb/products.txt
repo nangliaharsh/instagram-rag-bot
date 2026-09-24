@@ -1,0 +1,35 @@
+BrewBox Coffee - Product Catalog
+
+1. Sunrise Blend
+   Type: Medium roast, whole bean or ground
+   Notes: Chocolate, caramel, mild nuttiness
+   Best for: Daily drinking, French press, filter coffee
+   Sizes and prices: 250g - Rs. 449, 500g - Rs. 849, 1kg - Rs. 1,599
+
+2. Midnight Espresso
+   Type: Dark roast, whole bean or ground
+   Notes: Bold, smoky, dark chocolate, low acidity
+   Best for: Espresso machines, moka pot, milk-based drinks
+   Sizes and prices: 250g - Rs. 499, 500g - Rs. 949, 1kg - Rs. 1,799
+
+3. Ethiopia Single Origin
+   Type: Light roast, whole bean only
+   Notes: Floral, blueberry, citrus
+   Best for: Pour-over, AeroPress, cold brew
+   Sizes and prices: 250g - Rs. 649, 500g - Rs. 1,249
+
+4. Swiss Water Decaf
+   Type: Medium roast, whole bean or ground
+   Notes: Smooth, cocoa, light sweetness. 99.9 percent caffeine free
+   Best for: Evening coffee, sensitive drinkers
+   Sizes and prices: 250g - Rs. 549, 500g - Rs. 1,049
+
+5. Cold Brew Bags (10 pack)
+   Type: Ready-to-steep bags, medium roast
+   Notes: Smooth, low bitterness. Steep 12 hours in cold water
+   Price: Rs. 599
+
+6. Starter Gift Box
+   Contents: Sunrise Blend 250g, Midnight Espresso 250g, ceramic mug, tasting card
+   Price: Rs. 1,299 (free shipping)
+   Note: Ships in a gift-ready box with an optional handwritten message
