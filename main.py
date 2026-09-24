@@ -29,12 +29,18 @@ async def send_reply(recipient_id: str, text: str):
             headers={"Authorization": f"Bearer {ACCESS_TOKEN}"},
             json={"recipient": {"id": recipient_id}, "message": {"text": text}},
         )
-        r.raise_for_status()
+        if r.status_code >= 400:
+            print("SEND ERROR:", r.status_code, r.text)
+        else:
+            print("REPLY SENT to", recipient_id)
 
 
 async def handle_message(sender_id: str, text: str):
-    reply = answer(text)
-    await send_reply(sender_id, reply)
+    try:
+        reply = answer(text)
+        await send_reply(sender_id, reply)
+    except Exception as e:
+        print("HANDLER ERROR:", repr(e))
 
 
 # Meta webhook verification
@@ -55,6 +61,8 @@ async def webhook(request: Request, bg: BackgroundTasks):
         raise HTTPException(403, "Bad signature")
 
     data = await request.json()
+    print("WEBHOOK PAYLOAD:", data)
+
     for entry in data.get("entry", []):
         for event in entry.get("messaging", []):
             msg = event.get("message", {})
