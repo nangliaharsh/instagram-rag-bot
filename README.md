@@ -2,10 +2,6 @@
 
 An AI auto-reply system for Instagram. When someone replies to a story, the bot retrieves the relevant answer from a knowledge base using a RAG pipeline and sends the reply back automatically in the DM.
 
-## Demo
-
-> Add your demo video or GIF link here.
-
 ## How it works
 
 ```
